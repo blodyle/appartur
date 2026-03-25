@@ -2,6 +2,32 @@
 
 All notable changes to Artur are documented in this file.
 
+## [1.1.0] - 2026-03-25
+
+### Added
+
+- Sincronização de pagamentos com Segurança Social Direta (SS Direta)
+- Referências Multibanco e folha informativa no ecrã de Segurança Social
+- Suporte multicurrency e obtenção de PDFs na integração InvoiceXpress
+- Novo fluxo de onboarding para utilizadores
+- Sincronização automática ao arranque (InvoiceXpress e SS Direta)
+- Suporte iCloud e CloudKit para dados
+- Simplificação da configuração de IVA (remoção de configuração separada)
+
+### Fixed
+
+- Validação do nome da conta no botão de guardar InvoiceXpress
+- Granularidade do slider IRS no onboarding alinhada com definições
+- Arredondamento correto da taxa IRS no gráfico do Dashboard
+- Cálculo e formatação do saldo de faturas
+
+### Known Issues
+
+- A versão beta pode incluir ajustes de UX e estabilidade em iterações curtas
+- Nesta versão, a única integração disponível é com o InvoiceXpress
+- No ecrã de IVA, ainda faltam alguns campos no detalhe para facilitar o copiar/colar e o preenchimento da declaração
+
+
 ## [1.0.0] - 2026-03-10
 
 ### Added
