@@ -2,6 +2,21 @@
 
 All notable changes to Artur are documented in this file.
 
+## [1.1.1] - 2026-03-25
+
+**Correção de estabilidade** — Correção de crash ao iniciar a aplicação com dados existentes e melhoria da experiência de primeiro arranque.
+
+### Fixed
+
+- Crash ao arrancar com despesas guardadas de versões anteriores
+- Modal desnecessária do Keychain ao iniciar a aplicação
+
+### Known Issues
+
+- A versão beta pode incluir ajustes de UX e estabilidade em iterações curtas
+- Nesta versão, a única integração disponível é com o InvoiceXpress
+- No ecrã de IVA, ainda faltam alguns campos no detalhe para facilitar o copiar/colar e o preenchimento da declaração
+
 ## [1.1.0] - 2026-03-25
 
 ### Added
