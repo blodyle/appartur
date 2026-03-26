@@ -2,14 +2,13 @@
 
 All notable changes to Artur are documented in this file.
 
-## [1.1.1] - 2026-03-25
+## [1.1.1] - 2026-03-26
 
-**Correção de estabilidade** — Correção de crash ao iniciar a aplicação com dados existentes e melhoria da experiência de primeiro arranque.
+**Correção de estabilidade** — Corrige um erro da 1.1.0 que, em certas situações, fazia a aplicação fechar sozinha. Recomendamos esta versão a todos os utilizadores da 1.1.0.
 
 ### Fixed
 
-- Crash ao arrancar com despesas guardadas de versões anteriores
-- Modal desnecessária do Keychain ao iniciar a aplicação
+- Correção de um problema que, em alguns casos, fazia a aplicação fechar inesperadamente na versão anterior
 
 ### Known Issues
 
