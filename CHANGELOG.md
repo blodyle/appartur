@@ -2,6 +2,31 @@
 
 All notable changes to Artur are documented in this file.
 
+## [1.2.0] - 2026-04-10
+
+### Added
+
+- Seletores de taxa de IVA nos formulários de clientes e faturas
+- Separação do rendimento por origem na declaração trimestral da Segurança Social
+
+### Changed
+
+- Fluxo e apresentação da declaração de IVA, com detalhe mais claro para preenchimento
+- Layout da declaração de Segurança Social, com introdução de dados mais organizada
+- Campos de texto das definições, agora com labels e contexto mais claros
+- Cards de resumo no Dashboard e em Segurança Social, agora com melhor comportamento em larguras mais pequenas
+
+### Fixed
+
+- Cálculo dos totais de retenção na fonte e IVA nas faturas
+- Ajustes relacionados no formulário de faturas e no resumo fiscal
+
+### Known Issues
+
+- A versão beta pode incluir ajustes de UX e estabilidade em iterações curtas
+- Nesta versão, a única integração disponível é com o InvoiceXpress
+- No ecrã de IVA, ainda faltam alguns campos no detalhe para facilitar o copiar/colar e o preenchimento da declaração
+
 ## [1.1.1] - 2026-03-26
 
 **Correção de estabilidade** — Corrige um erro da 1.1.0 que, em certas situações, fazia a aplicação fechar sozinha. Recomendamos esta versão a todos os utilizadores da 1.1.0.
