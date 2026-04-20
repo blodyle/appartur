@@ -2,6 +2,24 @@
 
 All notable changes to Artur are documented in this file.
 
+## [1.3.0] - 2026-04-20
+
+### Added
+
+- Criação de orçamentos para clientes com preços e condições específicas
+- Criação automática de PDF A4 com um template personalizável
+- Possibilidade de personalizar o template do PDF com logotipo e cores do negócio
+- Possibilidade de anexar documentos e fotografias ao orçamento
+
+### Changed
+
+- Ajustes de espaçamento em alguns ecrãs para melhorar a legibilidade
+
+### Known Issues
+
+- Nesta versão, a única integração disponível é com o InvoiceXpress
+- No ecrã de IVA, ainda faltam alguns campos no detalhe para facilitar o copiar/colar e o preenchimento da declaração
+
 ## [1.2.0] - 2026-04-10
 
 ### Added
