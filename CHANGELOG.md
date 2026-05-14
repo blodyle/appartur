@@ -2,6 +2,19 @@
 
 All notable changes to Artur are documented in this file.
 
+ ## [1.4.0] - 2026-05-14
+
+### Added
+
+- Pagamentos da app macOS via Stripe
+- Chaves de licença enviadas por email
+- Ativação e validação de licenças pela API do Artur
+
+### Changed
+
+- Paywall atualizado para o novo checkout
+- Termos e privacidade da app macOS atualizados
+
 ## [1.3.0] - 2026-04-20
 
 ### Added
